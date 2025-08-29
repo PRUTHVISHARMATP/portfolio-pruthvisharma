@@ -112,8 +112,15 @@ html, body {
 /* Main container styling */
 .project-list {
   background-color: #2f3c7e;
-  min-height: 100hv;
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .project-list .card {
@@ -200,5 +207,6 @@ html, body {
   left: 50%;
   transform: translateX(-50%);
 }
+
 
 
