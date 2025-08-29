@@ -112,21 +112,8 @@ html, body {
 /* Main container styling */
 .project-list {
   background-color: #2f3c7e;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-
-  /* Responsive full-screen height */
-  min-height: 100vh;
-
-  /* Padding for spacing inside */
-  padding: 40px 20px;
-
-  /* Full width */
-  width: 100%;
-  box-sizing: border-box;
+  min-height: 100hv;
+  
 }
 
 .project-list .card {
@@ -213,4 +200,5 @@ html, body {
   left: 50%;
   transform: translateX(-50%);
 }
+
 
